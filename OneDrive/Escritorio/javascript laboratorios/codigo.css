@@ -1,0 +1,13 @@
+* {
+    background-color: aqua;
+}
+table ,td ,tr {
+    border-style: solid;
+}
+table {
+    width: 600px;
+
+}
+h3 {
+    text-align: center;
+}
