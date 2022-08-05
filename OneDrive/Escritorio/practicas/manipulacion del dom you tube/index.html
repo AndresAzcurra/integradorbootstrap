@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>manipulacion el dom</title>
+</head>
+<body>
+    <form >
+        <input type="text" id="inputForm" placeholder="escribir aca adentro" >
+        <br>
+        <a href="#" onclick="extraerDato()">esto se estrae</a>
+    </form>
+    <script>
+        function extraerDato(){
+            dato = document.getElementById('inputForm')
+            alert(dato.value)
+        }
+     
+    </script>
+    
+</body>
+</html>

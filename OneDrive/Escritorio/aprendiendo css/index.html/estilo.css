@@ -1,0 +1,27 @@
+* {padding: 0px;
+margin: 1px}
+
+*{
+	font-weight: 100;
+	font-size:20px;
+
+ }
+ .nav__responsive-ul {
+ 	display: none;
+ }
+ .nav {
+ 	background-color: slateblue;
+ }
+ .nav__li {
+ 	display: inline-block;
+ 	padding: 12px;
+ 	color: #fff;
+ }
+ .nav__li a {
+ 	color: #fff;
+ 	text-decoration: none;
+ }
+ .nav__li i {
+ 	width: 30px;
+ 	box-sizing: border-box;
+ }
